@@ -1,9 +1,34 @@
-# Using
+# Debug for Golang
 
-If you want to use the `Debug` function, you need to add the following code to your project:
+## Usage
+
+If you want to use the `Debug` function, you need to add the
+following code to your project:
+
 ```go
-   var debug utils.Debug           //  Declare a variable of type Debug
-   debug = utils.Init("flag")      //  Initialize variables, you can replace flag with any string
-   debug("Print what you want!")   //  Print the information you need
+// Step 0: Import it
+import "github.com/alibabacloud-go/debug/debug"
+
+// Step 1: Initialize variables, you can replace flag with
+var d = debug.Init("sdk")
+
+// Step 2: Use it
+func main() {
+  d("this debug information just print when DEBUG environment variable was set")
+}
 ```
-In addition to this, you also need to set the `Debug` environment variable, which has the same value as the string you passed in when you initialized the debug variable.
+
+Just run it with `go run demo.go`:
+
+```sh
+go run demo.go
+```
+
+No any results.
+
+Set DEBUG environment variable with `export DEBUG=sdk` and run again:
+
+```sh
+$ DEBUG=sdk go run demo.go
+this debug information just print when DEBUG environment variable was set
+```
