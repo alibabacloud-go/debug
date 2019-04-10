@@ -1,7 +1,6 @@
 package debug
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
 )
 
@@ -27,7 +26,7 @@ func TestMain_Matched(t *testing.T) {
 	}
 	debug := Init("sdk")
 	debug("%s", "testing")
-	assert.Equal(t, "testing", output)
+	assertEqual(t, "testing", output)
 }
 
 func TestMain_UnMatched(t *testing.T) {
@@ -47,5 +46,5 @@ func TestMain_UnMatched(t *testing.T) {
 	}
 	debug := Init("sdk")
 	debug("%s", "testing")
-	assert.Equal(t, "", output)
+	assertEqual(t, "", output)
 }
