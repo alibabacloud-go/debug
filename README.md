@@ -1,5 +1,8 @@
 # Debug for Golang
 
+- [![Build Status](https://travis-ci.org/alibabacloud-go/debug.svg?branch=master)](https://travis-ci.org/alibabacloud-go/debug)
+- [![codecov](https://codecov.io/gh/alibabacloud-go/debug/branch/master/graph/badge.svg)](https://codecov.io/gh/alibabacloud-go/debug)
+
 ## Usage
 
 If you want to use the `Debug` function, you need to add the
