@@ -32,3 +32,11 @@ Set DEBUG environment variable with `export DEBUG=sdk` and run again:
 $ DEBUG=sdk go run demo.go
 this debug information just print when DEBUG environment variable was set
 ```
+
+## Testing
+
+Run `go test -v ./debug`
+
+## License
+
+The Apache License 2.0.
