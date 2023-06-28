@@ -1,6 +1,6 @@
 # Debug for Golang
 
-- [![Build Status](https://travis-ci.org/alibabacloud-go/debug.svg?branch=master)](https://travis-ci.org/alibabacloud-go/debug)
+- [![Go CI](https://github.com/alibabacloud-go/debug/actions/workflows/go.yml/badge.svg)](https://github.com/alibabacloud-go/debug/actions/workflows/go.yml)
 - [![codecov](https://codecov.io/gh/alibabacloud-go/debug/branch/master/graph/badge.svg)](https://codecov.io/gh/alibabacloud-go/debug)
 
 ## Usage
