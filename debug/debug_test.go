@@ -26,7 +26,9 @@ func TestMain_Matched(t *testing.T) {
 	}
 	debug := Init("sdk")
 	debug("%s", "testing")
-	assertEqual(t, "testing", output)
+	if output != "testing" {
+		t.Errorf("%v != %v", output, "testing")
+	}
 }
 
 func TestMain_UnMatched(t *testing.T) {
@@ -46,5 +48,7 @@ func TestMain_UnMatched(t *testing.T) {
 	}
 	debug := Init("sdk")
 	debug("%s", "testing")
-	assertEqual(t, "", output)
+	if output != "" {
+		t.Errorf("output failed")
+	}
 }
