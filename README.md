@@ -1,7 +1,8 @@
 # Debug for Golang
 
-- [![Go CI](https://github.com/alibabacloud-go/debug/actions/workflows/go.yml/badge.svg)](https://github.com/alibabacloud-go/debug/actions/workflows/go.yml)
-- [![codecov](https://codecov.io/gh/alibabacloud-go/debug/branch/master/graph/badge.svg)](https://codecov.io/gh/alibabacloud-go/debug)
+[![Go CI](https://github.com/alibabacloud-go/debug/actions/workflows/go.yml/badge.svg)](https://github.com/alibabacloud-go/debug/actions/workflows/go.yml)
+[![codecov](https://codecov.io/gh/alibabacloud-go/debug/branch/master/graph/badge.svg)](https://codecov.io/gh/alibabacloud-go/debug)
+[![Go Reference](https://pkg.go.dev/badge/github.com/alibabacloud-go/debug.svg)](https://pkg.go.dev/github.com/alibabacloud-go/debug)
 
 ## Usage
 
